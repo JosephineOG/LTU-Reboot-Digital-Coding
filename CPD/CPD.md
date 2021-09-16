@@ -21,6 +21,6 @@ Setting up
 
 I learnt to folk a repository on github, then clone to my computer.
 
-I followed along with the instructor in real time.
+I followed along with the instructor in real time and then did it again myself.
 
-I could not follow some of the lesson due to technical issues
+I could not follow some of the lesson due to technical issues. I was able to go back and find a solution and continue in my own time.
