@@ -24,3 +24,10 @@ I learnt to folk a repository on github, then clone to my computer.
 I followed along with the instructor in real time and then did it again myself.
 
 I could not follow some of the lesson due to technical issues. I was able to go back and find a solution and continue in my own time.
+
+21/09/2021
+
+I created a clone of the google homepage. I made some changes, did some commits, put in a message and did a check by going to GitHub.com
+
+I followed along with the instructor in real time
+
