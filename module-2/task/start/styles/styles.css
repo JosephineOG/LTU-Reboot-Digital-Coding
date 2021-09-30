@@ -1,8 +1,4 @@
- a{
-    color:rgb(151, 133, 133);
-    color: #424243;
-    color: rgb{100,100,100};
-    font-size: 18px;
+
 
     /*
 .box {
@@ -12,6 +8,9 @@
     height: 100px;
 
     */
+    
+
+
 }
 header {
 
@@ -31,4 +30,19 @@ justify-content: space-evenly;
 width:380px;
 
 
+}
+a{
+    color:rgb(151, 133, 133);
+    color: #424243;
+    color: rgb{100,100,100};
+    font-size: 18px;
+
+main{
+    border: 1px solid green;
+    display:flex;
+    flex-directions: column;
+    align-items:center;
+    justify-content: center
+    width: 584px;
+    margin: 120px auto;
 }
