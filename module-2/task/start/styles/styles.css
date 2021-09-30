@@ -24,11 +24,11 @@ header {
 }
  
 ol {
-border: 1px solid green;
+
 display: flex;
 justify-content: space-evenly;
 width:380px;
-
+list-style-type: none;
 
 }
 a{
@@ -36,9 +36,9 @@ a{
     color: #424243;
     color: rgb{100,100,100};
     font-size: 18px;
+    text-decoration:none;
 
 main{
-    border: 1px solid green;
     display:flex;
     flex-directions: column;
     align-items:center;
@@ -46,3 +46,35 @@ main{
     width: 584px;
     margin: 120px auto;
 }
+
+div.search-container {
+    border: 1px solid #dfe1e5;
+    width: 100%;
+    height: 44px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 8px 016px;
+    border: radius 24px;
+}
+
+div.search-container:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+/*selector by attribute value*/
+main input [type=text] {
+  border:none;
+  width: 100%;
+  margin-top: -4px;
+  font-size: 22px
+}
+div.search-container input [type="text"]:focus{
+outline:none
+}
+.search--logo,microphone--logo{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+
