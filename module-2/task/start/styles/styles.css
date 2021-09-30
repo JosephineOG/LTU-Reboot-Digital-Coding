@@ -1,12 +1,34 @@
-a{
+ a{
     color:rgb(151, 133, 133);
     color: #424243;
     color: rgb{100,100,100};
     font-size: 18px;
 
+    /*
 .box {
     position:absolute
     border: 1 solid green;
     width:100px;
     height: 100px;
+
+    */
+}
+header {
+
+    border:1px solid red ;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+ 
+ol {
+border: 1px solid green;
+display: flex;
+justify-content: space-evenly;
+width:380px;
+
+
 }
