@@ -36,4 +36,9 @@ I learnt what CSS does, how it works, rules, properties and values. I learnt abo
 
 I followed along with the instructor and practiced again myself in my own time.
 
-I found this lesson challenging as my little boy was unwell during the lesson so I found it hard juggling my learning and family commitments. I realise I have to be willing to accept help from others with my son while studying. I also found practicing on free code camp and mimo app really helped me understand this lesson more. 
+ I found practicing on free code camp and mimo app really helped me understand this lesson more. 
+29/09/2021
+
+This lesson I learnt about flexbox and continued working on my google clone page adding styles for the header and ordered lists using flexbox.
+
+I found flexbox challenging but will continue to practice on free code camp, mimi, flexbox froggy and flexbox defense. 
