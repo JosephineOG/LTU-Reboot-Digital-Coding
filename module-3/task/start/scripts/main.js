@@ -40,3 +40,82 @@ let discountAmount= 10;
 //console.log( typeof discountAmount );
 
 //document.write( "<p>" + productName + "</p>" );
+
+function showProductName() {
+  console.log( productName);
+}
+
+//showProductName();
+
+function totalPrice( productPrice, productQuantity) {
+  console.log ( productPrice * productQuantity);
+}
+
+//totalPrice( price, quantity );
+
+const productDiscount =() => {
+  if(quantity >1 ) {
+    let newPrice = discountAmount - (price * quantity);
+    console.log( newPrice);
+  } else {
+    console.log( price * quantity);
+  }
+}
+
+//productDiscount();
+ 
+
+// switch Statement
+
+//const level = 4;
+
+//switch(level) {
+  //case 1:
+    //console.log('You are on level 1');
+    //break;
+    //case 2:
+   // console.log('You are on level 2');
+    //break;
+    //case 3:
+    //  console.log('You are on level 3');
+   //   case 4:
+   // console.log('You are on level 4');
+   // break;
+   //   break;
+   // default:
+   //   console.log('No level found');
+   //   break;
+
+    //  if( level == 1) {
+       // console.log('You are on level 1');
+      //} else if (level ==2) { 
+        //console.log('You are on level 2');
+        //...
+        //else{
+          //console.log('No level found');
+        //}
+//}
+
+//......code
+
+const drinkOrder = ( drink, size ) => {
+
+  switch( drink ) {
+case 'cola':
+  console.log( ${size} : ${ drink} );
+  break;
+  case 'lemonade':
+    console.log( ${size} : ${ drink} );
+  break;
+  case 'orangeade':
+    console.log( ${size} : ${ drink} );
+    break;
+  
+  default:
+    console.log('We currently don't have your ${drink} in stock;
+    break;
+  }
+
+}
+
+drinkOrder( 'cola', 'small')
