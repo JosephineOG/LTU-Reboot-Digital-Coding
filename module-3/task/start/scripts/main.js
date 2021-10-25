@@ -21,11 +21,11 @@
   *let lastName ="Ashton-Johnson "
 */
 
-const productName = 'Baked Beans';
-let price= 1.27;
-let quantity= 4;
-let InStock = true;
-let discountAmount= 10;
+//const productName = 'Baked Beans';
+//let price= 1.27;
+//let quantity= 4;
+//let InStock = true;
+//let discountAmount= 10;
 
 //console.log ( 'Product Name',productName );
 //console.log( 'Price',price );
@@ -41,26 +41,26 @@ let discountAmount= 10;
 
 //document.write( "<p>" + productName + "</p>" );
 
-function showProductName() {
-  console.log( productName);
-}
+//function showProductName() {
+  //console.log( productName);
+//}
 
 //showProductName();
 
-function totalPrice( productPrice, productQuantity) {
-  console.log ( productPrice * productQuantity);
-}
+//function totalPrice( productPrice, productQuantity) {
+  //console.log ( productPrice * productQuantity);
+//}
 
 //totalPrice( price, quantity );
 
-const productDiscount =() => {
-  if(quantity >1 ) {
-    let newPrice = discountAmount - (price * quantity);
-    console.log( newPrice);
-  } else {
-    console.log( price * quantity);
-  }
-}
+//const productDiscount =() => {
+  //if(quantity >1 ) {
+    //let newPrice = discountAmount - (price * quantity);
+    //console.log( newPrice);
+  //} else {
+    //console.log( price * quantity);
+  //}
+//}
 
 //productDiscount();
  
@@ -98,24 +98,115 @@ const productDiscount =() => {
 
 //......code
 
-const drinkOrder = ( drink, size ) => {
+//const drinkOrder = ( drink, size ) => {
 
-  switch( drink ) {
-case 'cola':
-  console.log( ${size} : ${ drink} );
-  break;
-  case 'lemonade':
-    console.log( ${size} : ${ drink} );
-  break;
-  case 'orangeade':
-    console.log( ${size} : ${ drink} );
-    break;
+  //switch( drink ) {
+//case 'cola':
+  //console.log( ${size} : ${ drink} );
+  //break;
+  //case 'lemonade':
+   // console.log( ${size} : ${ drink} );
+ // break;
+  //case 'orangeade':
+   // console.log( ${size} : ${ drink} );
+    //break;
   
-  default:
-    console.log('We currently don't have your ${drink} in stock;
-    break;
-  }
+  //default:
+    //console.log('We currently don't have your ${drink} in stock;
+    //break;
+  //}
 
+//}
+
+//drinkOrder( 'cola', 'small')  
+
+const calculator = ( num1, num2, operator) => {
+
+switch(operator) {
+
+  case '+':
+  
+    console.log( `${num1} + ${num2} = ${num1 + num2}` );
+    break;
+case '-':
+  console.log( `${num1} - ${num2} = ${num1 - num2}` );
+  break;
+  case '/':
+    console.log( `${num1} / ${num2} = ${num1 / num2}` );
+    break;
+    case '*':
+      console.log( `${num1} * ${num2} = ${num1 * num2}` );
+      break;
+  
+
+
+    default:
+      console.log(`The ${operator} that you chose is invalid`);
+      break;
+}
 }
 
-drinkOrder( 'cola', 'small')
+//calculator(5,5,'+');
+//calculator(5,5,'*'); 
+//calculator(5,5,'/');
+//calculator(5,5,'-');
+//calculator(5,5,'?');
+
+//const product =[productName, price, quantity,inStock, discountAmount ];
+
+//let firstItem = product[0];
+//let lastItem = product[product.length -1];
+
+// console.log( firstItem, lastItem);
+
+const product2={
+  productName: 'Apples',
+  price: 1.60,
+  quantity: 6,
+  inStock: true,
+  discountAmount: 0.20,
+
+};
+
+//console.log ( `Before : ${product2.price}` );
+
+product2.price = 1.25; //Modifying the object
+product2.colour ='Green'// Adding to the object
+//console.log ( `After : ${product2.price}` );
+//console.table (product2);
+//console.dir( product2); // helps console the object
+
+//console.log( product2.colour );
+
+//const productName = product["product name"]
+
+//console.log( product.price); // Dot notation
+//console.log( product["price"]); // square bracket notation
+//console.log(product["productName"]); // Square bracket notation
+
+//for (start, condition, step) {
+// code
+// }
+
+//for( let counter =0; counter <= 10; counter ++ ) {
+//  console.log ( `Step ${counter} : ${counter}` );
+//}
+
+/**
+ * get the results of the 7 times table
+ */
+
+function multiply (num, maxNum) {
+  for( let counter = 1; counter <= maxNum; counter++) {
+
+    let multiplyBy =num;
+    let result = counter * multiplyBy;
+  
+    console.log ( `${counter} * ${num}=${result}` );
+}
+
+//multiply ( 8, 16);
+
+//console.log( counter * 7 );
+
+}
