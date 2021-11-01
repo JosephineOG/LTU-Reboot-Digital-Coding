@@ -210,3 +210,132 @@ function multiply (num, maxNum) {
 //console.log( counter * 7 );
 
 }
+
+// 1. Create a function called totalPriceOfShopping that takes one (1)parameter, name the parameter arr - short for array
+ 
+//function totalPriceOfShopping( arr ) {
+//let totalPrice = 0;
+//console.log( arr[0]);
+
+//for ( let index = 0;index < arr.length; index ++ ) {
+
+//totalPrice = totalPrice + arr[index].price *arr[index].quantity
+//console.log( arr[index].price *arr[index].quantity  );
+//}
+
+//return  totalPrice.toFixed(2);
+//}
+//console.log (totalPriceOfShopping( shoppingBasket) );
+
+function discountType (arr, type, discount ) {
+let  totalPrice = 0;
+
+for( let index= 0;index <arr.length; index++){
+
+  if ( arr [index].type ===type){
+  let discountAmount = discount * (arr[index].price * arr[index].quantity) / 100;
+
+  totalPrice = totalPrice + (arr[index].price * arr[index].quantity - discountAmount); 
+} else {
+   
+    totalPrice = totalPrice +  (arr[index].price * arr[index].quantity ); 
+ 
+ 
+  }
+  
+} // end for loop   
+
+return totalPrice.toFixed(2);
+
+}
+
+//console.log( discountType( shoppingBasket, 'vegetables', 20) );
+//console.log( discountType( shoppingBasket, 'toiletries', 50));
+//console.log( discountType(shoppingBasket. 'beverages', 10));
+
+// arr, type, discount
+
+//shoppingBasket.forEach( item => console.log(item) );
+
+
+//for( let index =0; index < shoppingBasket.length; index++ ) {
+// console.log( shoppingBasket[index])
+//}
+
+//map, filter, reduce - High Level Function
+
+let arr = [1, 2 ,3 ,4 ,5 ,];
+
+/** map */
+//const newArray = arr.map( (element) => {
+ // return element + 2;
+//} );
+
+//const newArray = arr.ma( function(element){
+// return element + 2;
+//});
+
+// const newArray = arr.map( element => element + 2)
+
+//console.log( arr, newArray);
+ 
+/**filter */
+
+//const moreThanThree = arr.filter((element)=>{
+ // return element > 3 ;
+//});
+
+//const moreThanThree = arr.filter(element=> element > 3); 
+
+
+//console.log( moreThanThree);
+
+/**Reduce */
+
+//const total = arr.reduce((acc, curr) ==> {
+ // return acc + curr;
+//}, 0 );
+
+//const total = arr.reduce((acc, curr) ==> acc + curr, 0 );
+
+//console.log ( total );
+
+//let name ='Bob';
+
+//if(name === 'Bob') {
+ // console.log('Hi');
+//}else {
+ // console.log('What is your name?');
+//}
+// Ternary operator
+//(name === 'Bob')? console.log('Hi'):console.log('What is your name?');
+
+const obj = {
+  name: 'Luke',
+  age: 37,
+  professoion: 'web developer'
+
+}
+
+// for in loop for objects
+for( let key in obj) {
+  console.log( `${key} :${obj[key]}` );
+}
+
+// do maths with two numbers
+
+// get 2 numbers and an operator of the user
+
+// get 1st number, 2nd number and operator 
+
+// depending on the operator do something 
+
+//    console.log('first number not valid');
+//  }
+  //console.log (num1, num2, num3 );
+//console.log( num1 + num2 );
+//}
+
+//maths (1,1, '+')
+
+
