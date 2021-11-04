@@ -338,4 +338,12 @@ for( let key in obj) {
 
 //maths (1,1, '+')
 
+//dom
+//const heading1 = document.querySelector('h1');
+//const heading4 = document.querySelector('h4');
 
+//const paragraphs = document.querySelectorAll('p');
+
+//for( let i =0; i < paragraphs.length; i++){
+ // console.log( paragraph[i].style.color =
+//}
